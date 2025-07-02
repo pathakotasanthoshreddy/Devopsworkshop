@@ -1,45 +1,60 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { UserPlus, QrCode, BarChart3, Shield, Clock, Users, Calendar, MapPin, User, GraduationCap } from 'lucide-react';
+import {
+  UserPlus,
+  QrCode,
+  BarChart3,
+  Shield,
+  Clock,
+  Users,
+  Calendar,
+  MapPin,
+  User,
+  GraduationCap,
+} from 'lucide-react';
 
 const Home = () => {
   const features = [
     {
       icon: GraduationCap,
       title: 'kubectl for Kubernetes',
-      description: 'Master kubectl for Kubernetes automation and container orchestration',
-      color: 'bg-blue-500'
+      description:
+        'Master kubectl for Kubernetes automation and container orchestration',
+      color: 'bg-blue-500',
     },
     {
       icon: QrCode,
       title: 'GitHub Copilot',
-      description: 'Boost productivity with AI-powered coding assistance and automation',
-      color: 'bg-green-500'
+      description:
+        'Boost productivity with AI-powered coding assistance and automation',
+      color: 'bg-green-500',
     },
     {
       icon: BarChart3,
       title: 'Azure AI Foundry',
-      description: 'Discover the power of Azure AI Foundry for cloud-native AI applications',
-      color: 'bg-purple-500'
+      description:
+        'Discover the power of Azure AI Foundry for cloud-native AI applications',
+      color: 'bg-purple-500',
     },
     {
       icon: Shield,
       title: 'Modern Platforms',
-      description: 'Work with cutting-edge platforms and tools for DevOps excellence',
-      color: 'bg-orange-500'
+      description:
+        'Work with cutting-edge platforms and tools for DevOps excellence',
+      color: 'bg-orange-500',
     },
     {
       icon: Clock,
       title: 'Hands-on Experience',
       description: 'Real-time tools and project knowledge, not just theory',
-      color: 'bg-teal-500'
+      color: 'bg-teal-500',
     },
     {
       icon: Users,
       title: 'For All Levels',
       description: 'Perfect for freshers, learners, and IT professionals',
-      color: 'bg-red-500'
-    }
+      color: 'bg-red-500',
+    },
   ];
 
   return (
@@ -49,65 +64,80 @@ const Home = () => {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 py-24 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="mb-8">
-              <h1 className="text-4xl md:text-7xl font-bold mb-6 text-blue-300 leading-tight">
-                Free Workshop
-              </h1>
-              <h2 className="text-3xl md:text-5xl font-medium mb-8 text-black leading-tight">
-                on
-              </h2>
-              <h3 className="text-5xl md:text-8xl font-bold mb-8 text-white leading-tight">
-                DevOps with AI Tools
-              </h3>
-              
-              <div className="mt-12 mb-8">
-                <h4 className="text-xl md:text-3xl font-medium mb-4 text-black">
-                  Presented by
+            <h1 className="text-4xl md:text-7xl font-bold mb-6 text-blue-300 leading-tight">
+              Free Workshop
+            </h1>
+            <h2 className="text-3xl md:text-5xl font-medium mb-8 text-black leading-tight">
+              on
+            </h2>
+            <h3 className="text-5xl md:text-8xl font-bold mb-8 text-white leading-tight">
+              DevOps with AI Tools
+            </h3>
+
+            <div className="mt-12 mb-8">
+              <h4 className="text-xl md:text-3xl font-medium mb-4 text-black">
+                Presented by
+              </h4>
+              <h5 className="text-2xl md:text-4xl font-bold text-orange-400">
+                V Cube Software Solutions
+              </h5>
+            </div>
+          </div>
+
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-4xl mx-auto">
+            <p className="text-lg mb-4 font-semibold text-yellow-200">
+              "Exciting announcement!"
+            </p>
+            <p className="text-lg mb-6 leading-relaxed">
+              Join us for a completely free, live hands-on workshop designed for Tech Enthusiasts, Students, and Cloud Professionals.
+            </p>
+            <p className="text-xl font-bold mb-4 text-green-300">
+              The future is now — and it's all about AI-Integrated DevOps.
+            </p>
+          </div>
+
+          {/* Speaker Info */}
+          <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-3xl mx-auto">
+            <div className="flex items-center justify-center mb-4">
+              <User className="h-8 w-8 mr-3 text-blue-300" />
+              <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 text-center">
+                <h4 className="text-2xl font-extrabold text-orange-300 mb-2">
+                  Mr. Krishna Reddy
                 </h4>
-                <h5 className="text-2xl md:text-4xl font-bold text-orange-400">
+                <p className="text-blue-100 text-lg font-semibold mb-1">
+                  Multi-Cloud & DevSecOps Trainer
+                </p>
+                <p className="text-blue-200 mb-1">
+                  Having{' '}
+                  <span className="font-bold text-yellow-200">21+ years of Experience</span>
+                </p>
+                <p className="text-blue-200 mb-1">In Top MNCs Like</p>
+                <p className="text-blue-200 mb-1">
+                  <span className="font-semibold text-green-300">
+                    Tech Mahindra, Infosys, IBM
+                  </span>{' '}
+                  & more
+                </p>
+                <p className="text-blue-300 mt-2 font-semibold">
                   V Cube Software Solutions
-                </h5>
+                </p>
               </div>
             </div>
-            
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-4xl mx-auto">
-              <p className="text-lg mb-4 font-semibold text-yellow-200">
-                "Exciting announcement!"
-              </p>
-              <p className="text-lg mb-6 leading-relaxed">
-                Join us for a completely free, live hands-on workshop designed for Tech Enthusiasts, Students, and Cloud Professionals.
-              </p>
-              <p className="text-xl font-bold mb-4 text-green-300">
-                The future is now — and it's all about AI-Integrated DevOps.
-              </p>
-            </div>
+          </div>
 
-            {/* Speaker Info */}
-            <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-3xl mx-auto">
-              <div className="flex items-center justify-center mb-4">
-                <User className="h-8 w-8 mr-3 text-blue-300" />
-                <div className="text-left">
-                  <h4 className="text-xl font-bold">Mr. Krishna Reddy</h4>
-                  <p className="text-blue-200">Multi-Cloud & DevSecOps Trainer</p>
-                  <p className="text-blue-200">V Cube Software Solutions</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/register"
-                className="bg-gradient-to-r from-green-500 to-blue-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-green-600 hover:to-blue-600 transition-colors shadow-lg transform hover:scale-105"
-              >
-                📝 Register Now - 100% Free!
-              </Link>
-              <Link
-                to="/scanner"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
-              >
-                QR Code Scanner
-              </Link>
-            </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              to="/register"
+              className="bg-gradient-to-r from-green-500 to-blue-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-green-600 hover:to-blue-600 transition-colors shadow-lg transform hover:scale-105"
+            >
+              📝 Register Now - 100% Free!
+            </Link>
+            <Link
+              to="/scanner"
+              className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+            >
+              QR Code Scanner
+            </Link>
           </div>
         </div>
       </div>
@@ -169,16 +199,19 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                <div className={`${feature.color} w-12 h-12 rounded-lg flex items-center justify-center mb-4`}>
+              <div
+                key={index}
+                className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
+              >
+                <div
+                  className={`${feature.color} w-12 h-12 rounded-lg flex items-center justify-center mb-4`}
+                >
                   <feature.icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   ✅ {feature.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {feature.description}
-                </p>
+                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
               </div>
             ))}
           </div>
