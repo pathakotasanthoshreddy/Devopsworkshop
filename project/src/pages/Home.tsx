@@ -97,32 +97,25 @@ const Home = () => {
           </div>
 
           {/* Speaker Info */}
-          <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-3xl mx-auto">
-            <div className="flex items-center justify-center mb-4">
-              <User className="h-8 w-8 mr-3 text-blue-300" />
-              <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 text-center">
-                <h4 className="text-2xl font-extrabold text-orange-300 mb-2">
-                  Mr. Krishna Reddy
-                </h4>
-                <p className="text-blue-100 text-lg font-semibold mb-1">
-                  Multi-Cloud & DevSecOps Trainer
-                </p>
-                <p className="text-blue-200 mb-1">
-                  Having{' '}
-                  <span className="font-bold text-yellow-200">21+ years of Experience</span>
-                </p>
-                <p className="text-blue-200 mb-1">In Top MNCs Like</p>
-                <p className="text-blue-200 mb-1">
-                  <span className="font-semibold text-green-300">
-                    Tech Mahindra, Infosys, IBM
-                  </span>{' '}
-                  & more
-                </p>
-                <p className="text-blue-300 mt-2 font-semibold">
-                  V Cube Software Solutions
-                </p>
-              </div>
-            </div>
+          <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-3xl mx-auto text-center">
+            <User className="h-10 w-10 mx-auto mb-4 text-blue-300" />
+            <h4 className="text-2xl font-extrabold text-orange-300 mb-2">
+              Mr. Krishna Reddy
+            </h4>
+            <p className="text-blue-100 text-lg font-semibold mb-1">
+              Multi-Cloud & DevSecOps Trainer
+            </p>
+            <p className="text-blue-200 mb-1">
+              Having <span className="font-bold text-yellow-200">21+ years of Experience</span>
+            </p>
+            <p className="text-blue-200 mb-1">In Top MNCs Like</p>
+            <p className="text-blue-200 mb-1">
+              <span className="font-semibold text-green-300">
+                Tech Mahindra, Infosys, IBM
+              </span>{' '}
+              & more
+            </p>
+            <p className="text-blue-300 mt-2 font-semibold">V Cube Software Solutions</p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -142,7 +135,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Workshop Details */}
+      {/* Event Highlights */}
       <div className="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -154,7 +147,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Event Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
               <Calendar className="h-12 w-12 text-blue-600 mx-auto mb-4" />
@@ -218,7 +210,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Workshop Benefits */}
+      {/* Benefits Section */}
       <div className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -238,7 +230,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
+      {/* CTA */}
       <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
