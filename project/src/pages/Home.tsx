@@ -18,29 +18,25 @@ const Home = () => {
     {
       icon: GraduationCap,
       title: 'kubectl for Kubernetes',
-      description:
-        'Master kubectl for Kubernetes automation and container orchestration',
+      description: 'Master kubectl for Kubernetes automation and container orchestration',
       color: 'bg-blue-500',
     },
     {
       icon: QrCode,
       title: 'GitHub Copilot',
-      description:
-        'Boost productivity with AI-powered coding assistance and automation',
+      description: 'Boost productivity with AI-powered coding assistance and automation',
       color: 'bg-green-500',
     },
     {
       icon: BarChart3,
       title: 'Azure AI Foundry',
-      description:
-        'Discover the power of Azure AI Foundry for cloud-native AI applications',
+      description: 'Discover the power of Azure AI Foundry for cloud-native AI applications',
       color: 'bg-purple-500',
     },
     {
       icon: Shield,
       title: 'Modern Platforms',
-      description:
-        'Work with cutting-edge platforms and tools for DevOps excellence',
+      description: 'Work with cutting-edge platforms and tools for DevOps excellence',
       color: 'bg-orange-500',
     },
     {
@@ -67,17 +63,13 @@ const Home = () => {
             <h1 className="text-4xl md:text-7xl font-bold mb-6 text-blue-300 leading-tight">
               Free Workshop
             </h1>
-            <h2 className="text-3xl md:text-5xl font-medium mb-8 text-black leading-tight">
-              on
-            </h2>
+            <h2 className="text-3xl md:text-5xl font-medium mb-8 text-black leading-tight">on</h2>
             <h3 className="text-5xl md:text-8xl font-bold mb-8 text-white leading-tight">
               DevOps with AI Tools
             </h3>
 
             <div className="mt-12 mb-8">
-              <h4 className="text-xl md:text-3xl font-medium mb-4 text-black">
-                Presented by
-              </h4>
+              <h4 className="text-xl md:text-3xl font-medium mb-4 text-black">Presented by</h4>
               <h5 className="text-2xl md:text-4xl font-bold text-orange-400">
                 V Cube Software Solutions
               </h5>
@@ -85,37 +77,32 @@ const Home = () => {
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-4xl mx-auto">
-            <p className="text-lg mb-4 font-semibold text-yellow-200">
-              "Exciting announcement!"
-            </p>
+            <p className="text-lg mb-4 font-semibold text-yellow-200">"Exciting announcement!"</p>
             <p className="text-lg mb-6 leading-relaxed">
-              Join us for a completely free, live hands-on workshop designed for Tech Enthusiasts, Students, and Cloud Professionals.
+              Join us for a completely free, live hands-on workshop designed for Tech Enthusiasts,
+              Students, and Cloud Professionals.
             </p>
             <p className="text-xl font-bold mb-4 text-green-300">
               The future is now — and it's all about AI-Integrated DevOps.
             </p>
           </div>
 
-          {/* Speaker Info */}
-          <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-3xl mx-auto text-center">
+          {/* ✅ Speaker Info - Updated */}
+          <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-4xl mx-auto text-center">
             <User className="h-10 w-10 mx-auto mb-4 text-blue-300" />
-            <h4 className="text-2xl font-extrabold text-orange-300 mb-2">
+            <h4 className="text-2xl md:text-4xl font-bold text-white mb-2">
               Mr. Krishna Reddy
             </h4>
-            <p className="text-blue-100 text-lg font-semibold mb-1">
+            <p className="text-xl text-black font-semibold mb-1">
               Multi-Cloud & DevSecOps Trainer
             </p>
-            <p className="text-blue-200 mb-1">
-              Having <span className="font-bold text-yellow-200">21+ years of Experience</span>
+            <p className="text-blue-200 text-lg mb-1">
+              Having <span className="font-bold text-yellow-300">21+ years of Experience</span>
             </p>
-            <p className="text-blue-200 mb-1">In Top MNCs Like</p>
-            <p className="text-blue-200 mb-1">
-              <span className="font-semibold text-green-300">
-                Tech Mahindra, Infosys, IBM
-              </span>{' '}
-              & more
+            <p className="text-blue-200 text-lg mb-1">In Top MNCs Like</p>
+            <p className="text-green-300 text-lg font-semibold">
+              Tech Mahindra, Infosys, IBM & Much More
             </p>
-            <p className="text-blue-300 mt-2 font-semibold">V Cube Software Solutions</p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -135,13 +122,11 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Event Highlights */}
+      {/* Workshop Details */}
       <div className="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              📍 Event Highlights
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">📍 Event Highlights</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               In this exclusive session, we'll explore how AI is revolutionizing the way we do DevOps
             </p>
@@ -154,20 +139,17 @@ const Home = () => {
               <p className="text-gray-600">05th July, 2025</p>
               <p className="text-gray-600 font-semibold">(Saturday)</p>
             </div>
-
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
               <MapPin className="h-12 w-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-lg font-bold text-gray-900 mb-2">Mode</h3>
               <p className="text-gray-600 font-semibold">Offline Only</p>
             </div>
-
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
               <User className="h-12 w-12 text-purple-600 mx-auto mb-4" />
               <h3 className="text-lg font-bold text-gray-900 mb-2">Trainer</h3>
               <p className="text-gray-600">Mr. Krishna Reddy</p>
               <p className="text-sm text-gray-500">Multi-Cloud & DevSecOps</p>
             </div>
-
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
               <GraduationCap className="h-12 w-12 text-orange-600 mx-auto mb-4" />
               <h3 className="text-lg font-bold text-gray-900 mb-2">Fee</h3>
@@ -181,9 +163,7 @@ const Home = () => {
       <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What You'll Learn
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What You'll Learn</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Get ready to dive into tools that are shaping the cloud landscape with hands-on experience
             </p>
@@ -191,18 +171,11 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <div
-                key={index}
-                className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
-              >
-                <div
-                  className={`${feature.color} w-12 h-12 rounded-lg flex items-center justify-center mb-4`}
-                >
+              <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <div className={`${feature.color} w-12 h-12 rounded-lg flex items-center justify-center mb-4`}>
                   <feature.icon className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  ✅ {feature.title}
-                </h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">✅ {feature.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{feature.description}</p>
               </div>
             ))}
@@ -210,12 +183,10 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Benefits Section */}
+      {/* Workshop Benefits */}
       <div className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Why Attend This Workshop?
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Attend This Workshop?</h2>
           <div className="space-y-4 mb-8">
             <p className="text-xl opacity-90">
               💡 Whether you're a fresher, learner, or already in IT, this workshop will push your skills to the next level.
@@ -230,7 +201,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* CTA */}
+      {/* CTA Section */}
       <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
